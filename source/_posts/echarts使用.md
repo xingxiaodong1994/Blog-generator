@@ -29,4 +29,28 @@ tags:
                 }]
             });
     ```
+# 4. 进阶使用
+    ```js
+    //第一步：引入
+    import echarts from 'echarts'
+    //第二步：初始化
+    let myChart = echarts.init(document.getElementById("节点元素的id"));
+    let option={
+        //...配置信息
+    }
+    myChart.setOption(option)
+    ```
+# 5. 配置信息详解：
+    ```js
+    let option={
+        backgroundColor: "red", //设置图表背景色
+        grid: { //设置表格整体位置相对于给定区域的大小
+                  top: '15%',
+                  left: '8%',
+                  right: '8%',
+                  bottom: '8%',
+                  containLabel: true,
+              },
+    }
+    ```
 
