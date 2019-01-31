@@ -10,7 +10,7 @@ tags:
 - `git checkout -- [文件名]` # 撤销修改到最近一次git commit或git add时的状态。
 - 注意：文件删除错误，也可以通过`git checkout -- [文件名]`回复。
 - `git reset HEAD [文件名]` # 丢弃已经添加到暂存区（git add .）的修改。
-
+ 
 以前 我只会建立一个本地分支和远程分支。
 当我们运行`git init`后会自动建立一个本地主分支`master`
 然后我们会去github上建立一个远程仓库，运行GitHub给的命令
